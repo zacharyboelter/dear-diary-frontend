@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Startpage from './components/Startpage';
+import Startpage from './pages/Startpage/Startpage';
+
 
 ReactDOM.render(
   <React.StrictMode>
