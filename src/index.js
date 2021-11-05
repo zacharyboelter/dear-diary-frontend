@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Startpage from './components/Startpage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Startpage />
   </React.StrictMode>,
   document.getElementById('root')
 );
