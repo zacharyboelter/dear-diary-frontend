@@ -1,5 +1,10 @@
 import React from "react";
 <<<<<<< HEAD
+import DisplayAllPosts from './components/DisplayAllPosts'
+const App = ( ) => {
+  return (
+=======
+<<<<<<< HEAD
 import {
   BrowserRouter as Router,
   Routes,
@@ -25,6 +30,7 @@ function App() {
 import DisplayAllPosts from './components/DisplayAllPosts'
 const App = ( ) => {
   return (
+>>>>>>> main
     <div>
       <DisplayAllPosts />
     </div>

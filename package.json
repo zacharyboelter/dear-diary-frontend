@@ -64,10 +64,14 @@
     "react-icons": "^4.3.1",
     "react-refresh": "^0.8.3",
 <<<<<<< HEAD
+    "react-router-dom": "^5.2.0",
+=======
+<<<<<<< HEAD
     "react-router-dom": "^6.0.1",
 =======
     "react-router-dom": "^5.2.0",
 >>>>>>> dev
+>>>>>>> main
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "^10.0.5",

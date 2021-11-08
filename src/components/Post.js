@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 import React from 'react'
 
 function Post() {
@@ -16,6 +18,7 @@ function Post() {
 
 export default Post
 =======
+>>>>>>> main
 import React from "react";
 
 const Post = ({ title, content, editPost, id, deletePost }) => {
@@ -31,4 +34,7 @@ const Post = ({ title, content, editPost, id, deletePost }) => {
   );
 };
 export default Post;
+<<<<<<< HEAD
+=======
 >>>>>>> dev
+>>>>>>> main
