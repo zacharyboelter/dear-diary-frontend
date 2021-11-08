@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Startpage from './components/Startpage';
+import CreateNewDiary from './components/CreateNewDiary';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Startpage />
+    <CreateNewDiary />
   </React.StrictMode>,
   document.getElementById('root')
 );

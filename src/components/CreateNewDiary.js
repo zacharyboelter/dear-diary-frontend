@@ -1,14 +1,16 @@
 import React from 'react'
-// import './Create-styles.css';
 
 
-function CreateNewDiary() {
-
-
+const CreateNewDiary = props => {
     return (
         <div>
             <form>
-                <textarea placeHolder="Dear Diary..." rows="8" cols="41" required></textarea>
+                <textarea 
+                onChange={props.saveDiaryToState}
+                placeholder="Dear Diary..." 
+                rows="8" cols="41" 
+                required
+                ></textarea>
                 <br />
                 <br />
                 <button>Save Post</button>
