@@ -1,9 +1,12 @@
 import React from 'react'
+import './comp-styles.css'
+
 
 function Navbar() {
+
     return (
-        <div>
-            
+        <div className="navbar">
+          
         </div>
     )
 }
