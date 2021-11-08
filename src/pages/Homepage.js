@@ -1,10 +1,10 @@
 import React from 'react'
-import Sidebar from '../components/Sidebar'
+import Navbar from '../components/Navbar'
 
 function Homepage() {
     return (
         <div>
-        <Sidebar />
+        <Navbar />
             
         </div>
     )

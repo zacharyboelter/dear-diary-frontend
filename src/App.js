@@ -5,13 +5,15 @@ import {
   Route,
 } from "react-router-dom";
 import './App.css';
-import Sidebar from  './components/Sidebar'
+import CreateNewDiary from "./components/CreateNewDiary";
+import Post from "./components/Post";
+import Homepage from "./pages/Homepage";
 
 function App() {
   return (
     <>
      <Router>
-       <Sidebar />
+       <Post />
        <Routes>
        <Route path='/'/>
        </Routes>

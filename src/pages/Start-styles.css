@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
 }
 
 body{
@@ -120,3 +121,5 @@ span{
 	animation: none;
 	display: none;
   }
+
+
