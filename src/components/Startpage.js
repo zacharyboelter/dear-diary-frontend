@@ -20,7 +20,12 @@ function Startpage() {
                 <span>R</span>
                 <span>Y</span>
             </div>
-            <h3><a href=""><button className='button'>Tell Me About Your Day ➔</button></a> </h3>
+            <button 
+            onClick={}
+            className='button'>Tell Me About Your Day ➔
+            </button>
+           
+          
             <p>a diary for developers</p>
         </div>
     )
