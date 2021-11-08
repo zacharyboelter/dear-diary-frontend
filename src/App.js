@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import {
   BrowserRouter as Router,
   Routes,
@@ -20,7 +21,14 @@ function App() {
      </Router>
       
     </>
+=======
+import DisplayAllPosts from './components/DisplayAllPosts'
+const App = ( ) => {
+  return (
+    <div>
+      <DisplayAllPosts />
+    </div>
+>>>>>>> dev
   );
-}
-
+};
 export default App;
